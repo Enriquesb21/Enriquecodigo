@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    </label Form="">
+    <!-- La etiqueta Required hace que los campos sean obligatorios-->
+    <!--Minlength y maxlength es para poner minimos o maximos a los caracteres-->
+    <!--Disabled sirve para bloquear determinado bloque y no envia la información-->
+    <!--Value sirve para poner un valor por defecto-->
+    <!--Name nos ayuda a etiquetar la información recibida por los usuarios-->
+    <!--Readonly pone al campo en modo lectura y envia la información-->
+       Nombre
+      <input name="Nombre" value="Sebastian" type="text" minlength="4" maxlength="10" required readonly>
+      </label>
+      <br>
+    <label form="">
+       Apellido
+      <input name="Apellido" type="text" required >
+      </label>
+      <br>
+    <label form="">
+      Edad
+      <!-- min y max para colocar maximo o minimos en la edad-->
+      
+      <input name="Edad" type="Number" min="18" max="64" required >
+    </label>
+    <br>
+    <label form="">
+        Correo
+        <!--Text podemos reemplazar con el tipo de texto que necesitamos-->
+        <input name=" Correo"type="email" required>
+    </label>
+    <br>
+    <label form="" required>
+    Paswoord
+    <input name="Contraseña" type="text">
+    </label>
+    <br>
+    <!--Poner casilla para seleccionar opciones-->
+    <select name="Pais" id="" required>
+        <option value=""> Selecciona tu País</option>
+        <option value=""> Perú</option>
+        <option value=""> Chile</option>
+        <option value=""> Uruguay</option>
+    </select>
+    <br>
+    <button>
+        Enviar
+    </button>
+    </form>
+</body>
+</html>
