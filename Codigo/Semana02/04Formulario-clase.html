@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1> Formularios </h1>
+    </header>
+    <main>
+        <section>
+            <h2>Registro de usuarios</h2>
+            <form>
+                <label for="nombres">  Nombres </label>
+                <input type="text" placeholder="Ingresa tus nombre" id="nombres" value="" pattern="[A-Z a-z]+">
+                <!--Place holder para colocar el texto que tendra que poner en el formulario--> 
+                
+                <br>
+                <label for="apellidos"> Apellidos </label>
+                <input type="text" placeholder="ingrese apelldos" id="apellidos">
+                <br>
+                <label> Correo </label>
+                <input type="email" placeholder="ingresa tu email">
+                <br>
+                <label>Contraseñas</label>
+                <input type="password" placeholder="Ingresa una contraseña" required>
+                <br>
+                <label> Edad </label>
+                <input type="number" placeholder="ingresar tu edad" min="1" max="120">
+                <br>
+                <h4> Datos adicionales </h4>
+                <label> Fecha de nacimiento </label>
+                <input type="date">
+                <br>
+                <label> Telefono </label>
+                <input type="tel" placeholder="ingrese su telefono">
+                <br>
+                <label> Genero </label>
+                <br>
+                <input type="radio" name="genero"> Masculino
+                <br>
+                <input type="radio" name="genero"> Femenino
+                <br>
+                <input type="radio" name="genero">  Prefiero no divulgarlo
+                <br>
+                <select>
+                    <option disabled selected> Seleccionar.... </option>
+                    <option value="AM"> Amazonas </option>
+                    <option value="AN"> Ancash </option>
+                    <option value="AP"> Apurimac </option>
+                    <option value="AR"> Arequipa </option>
+                    <option value="LI" disabled> Lima </option>
+                    <option value="JM"> -Jesus Maria </option>
+                </select>
+                    <br>
+                    <label> Hobbies </label>
+                    <br>
+                    <label> Leer </label>
+                    <input type="checkbox" value="LEER">
+                    <br>
+                    <label> jugar Futbol</label>
+                    <input type="checkbox" value="Futbol">
+                    <br>
+                    <label> Tocar guitarra </label>
+                    <input type="checkbox">
+                    <br>
+                    <label> Escuchar Musica</label>
+                    <input type="checkbox">
+                    <br>
+                    <textarea placeholder="Describete"></textarea>
+                    <br>
+                    <label> Sube tu foto</label>
+                    <input type="file">
+                    
+            </form>
+        </section>
+    </main>
+</body>
+</html>

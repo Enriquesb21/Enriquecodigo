@@ -1,0 +1,10 @@
+/* Estoy seleccionando todos los h1 y los aricle */  
+h1,article{ background: skyblue;}
+/*  esto va aplicar a todos los articulos que sean hijos de section */
+section,article{ color: ;}
+/* Solo estoy seleccionando aquellos hijos que esten dentro de la etiqueda ol solo los primeros */
+ol>li{ font-family: Arial; color: orange;}
+
+ol>ul>li{ color: red;}
+
+div+p{background: red;}

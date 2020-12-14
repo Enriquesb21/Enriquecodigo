@@ -1,0 +1,11 @@
+h1{ font-family: Arial;}
+section{ background: aqua;}
+
+/*esto es una clase, funciona para varios elementos colocando en el html class para hacer la union y se pueden insertar varios atributos en el html*/
+
+.resaltar{ background: yellow;}
+
+.textorojo{ color:red;}
+
+/* LLamar ID es con # */
+#importante{ border: 3px solid red;}
