@@ -6,5 +6,6 @@ section,article{ color: ;}
 ol>li{ font-family: Arial; color: orange;}
 
 ol>ul>li{ color: red;}
-
+/* este estilo aplica el primer p que este debajo de div
+al primer elemento debajo del otro */
 div+p{background: red;}
